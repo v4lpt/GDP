@@ -1,0 +1,26 @@
+<resources>
+    <string name="start_session">Start Session</string>
+    <string name="session_duration">Duration of session (min:sec):</string>
+    <string name="pause_sec">Pause = Blank Screen (sec):</string>
+    <string name="duration_min">Duration per image (min):</string>
+    <string name="cancel">X</string>
+    <string name="select_pictures">Select Images</string>
+    <string name="anleitung">Welcome to Gesture Drawing Practice, an App designed to display images you select for a specific amount of time.\n\n<b><font color="#efcac2">To select the images, tap the big red button.</font></b>\n\nFollowing this, you will have the option to customize your session. You can choose the display time, break time and appearance (or not appearance) of the timer.</string>
+    <string name="anleitung2">Welcome to Gesture Drawing Practice, an open-source app designed to enhance your artistic skills. This app doesn\'t store any data, ensuring your privacy while you practice.  \n\nGesture Drawing Practice offers customizable settings to tailor your experience:\n\n• Adjust the display duration\n• Set break times between drawings\n• Choose whether to display a timer\n• Customize the timer\'s appearance\n\n<b><font color="#efcac2">To begin your session, simply tap the prominent red button to select your reference images.</font></b></string>
+    <string name="powertools">Valentin\'s PowerTools #003</string>
+    <string name="app_name">VPT#003-GDP</string>
+    <string name="app_name_show">Gesture Drawing Practice</string>
+
+    <string name="_00_00">00:00</string>
+    <string name="display_timer">Display Timer</string>
+    <string name="LICENSE">
+        Copyright 2024 Valentin\'s PowerTools\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with this program. If not, see\nhttps://www.gnu.org/licenses.\n\nHere is the github link: https://github.com/v4lpt/GDP
+
+    </string>
+    <string name="copy">Copyright and License Information</string>
+    <string name="infobuttonforblinds">info \n</string>
+</resources>

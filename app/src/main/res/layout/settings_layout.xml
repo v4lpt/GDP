@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#444654">
+
+<TextView
+    android:id="@+id/titleBar1"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginTop="32dp"
+    android:background="#343541"
+    android:fontFamily="monospace"
+    android:gravity="center"
+    android:maxLines="1"
+    android:padding="10dp"
+    android:text="@string/powertools"
+    android:textColor="#CCCCCC"
+    android:textStyle="bold"
+    app:autoSizeMaxTextSize="304sp"
+    app:autoSizeMinTextSize="8sp"
+    app:autoSizeStepGranularity="1sp"
+    app:autoSizeTextType="uniform"
+    app:layout_constraintBottom_toTopOf="@+id/titleBar2"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHeight_percent="0.067"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/titleBar2"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginBottom="1dp"
+    android:background="#343541"
+    android:fontFamily="monospace"
+    android:gravity="center"
+    android:padding="10dp"
+    android:text="@string/app_name_show"
+    android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    app:autoSizeMaxTextSize="30sp"
+    app:autoSizeMinTextSize="10sp"
+    app:autoSizeStepGranularity="1sp"
+    app:autoSizeTextType="uniform"
+    app:layout_constraintBottom_toTopOf="@+id/space1"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHeight_percent="0.067"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/titleBar1" />
+
+<Space
+    android:id="@+id/space1"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toTopOf="@+id/durationLabel"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHeight_percent="0.01"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/titleBar2" />
+
+<TextView
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:id="@+id/durationLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/duration_min"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/space1" />
+
+<RadioGroup
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:id="@+id/durationRadioGroup"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:orientation="horizontal"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/durationLabel">
+
+    <RadioButton
+        android:id="@+id/duration1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_radio_selector"
+        android:button="@null"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <RadioButton
+        android:id="@+id/duration2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_radio_selector"
+        android:button="@null"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="2"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <RadioButton
+        android:id="@+id/duration3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_radio_selector"
+        android:button="@null"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="3"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <RadioButton
+        android:id="@+id/duration5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_radio_selector"
+        android:button="@null"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="5"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+</RadioGroup>
+
+<TextView
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:id="@+id/pauseLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:text="@string/pause_sec"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/durationRadioGroup" />
+
+<RadioGroup
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:id="@+id/pauseRadioGroup"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:orientation="horizontal"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/pauseLabel">
+
+    <RadioButton
+        android:id="@+id/pause0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_radio_black"
+        android:button="@null"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <RadioButton
+        android:id="@+id/pause2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_radio_black"
+        android:button="@null"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="2"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <RadioButton
+        android:id="@+id/pause5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_radio_black"
+        android:button="@null"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="5"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <RadioButton
+        android:id="@+id/pause7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_radio_black"
+        android:button="@null"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="7"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+</RadioGroup>
+
+<TextView
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:id="@+id/sessionDurationTextView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:text="@string/session_duration"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/pauseRadioGroup" />
+
+<TextView
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:id="@+id/sessionDurationTextView"
+    android:layout_width="match_parent"
+    android:background="@drawable/custom_radio_black"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:elevation="4dp"
+    android:gravity="center"
+    android:padding="12dp"
+    android:text="@string/_00_00"
+    android:textColor="#FFFFFF"
+    android:textSize="24sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/sessionDurationTextView3" />
+
+    <TextView
+        android:id="@+id/timerDisplayLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/display_timer"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@id/pauseRadioGroup"
+        app:layout_constraintTop_toBottomOf="@id/sessionDurationTextView" />
+
+    <RadioGroup
+        android:id="@+id/timerDisplayRadioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@id/pauseRadioGroup"
+        app:layout_constraintStart_toStartOf="@id/pauseRadioGroup"
+        app:layout_constraintTop_toBottomOf="@id/timerDisplayLabel">
+
+        <RadioButton
+            android:id="@+id/timerDisplayOff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_selector_redborder"
+            android:button="@null"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Off"
+            android:textColor="@drawable/off_button_text"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/timerDisplayWob"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_selector_redborder_wob"
+            android:button="@null"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="WoB"
+            android:textColor="@drawable/wob_text"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/timerDisplayWot"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_selector_transparent_redborder"
+            android:button="@null"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="WoT"
+            android:textColor="@drawable/wob_text"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/timerDisplayBow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_selector_redborder_bow"
+            android:button="@null"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="BoW"
+            android:textColor="@drawable/bow_text"
+            android:textSize="16sp" />
+    </RadioGroup>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/startSessionButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintHeight_percent="0.22"
+        app:layout_constraintWidth_percent="0.8"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF0000"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="@string/start_session"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="35sp"
+        app:autoSizeMinTextSize="4sp"
+        app:autoSizeTextType="uniform"
+        app:cornerRadius="15dp"
+        app:layout_constraintTop_toBottomOf="@id/timerDisplayRadioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Space
+        android:id="@+id/space4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/startSessionButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

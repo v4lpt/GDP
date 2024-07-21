@@ -1,0 +1,3 @@
+Simple android app for displaying pictures for a set amount of time.
+
+
