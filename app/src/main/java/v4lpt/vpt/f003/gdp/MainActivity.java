@@ -339,17 +339,23 @@ public class MainActivity extends AppCompatActivity {
             timerTextView.setBackgroundColor(Color.WHITE);
             timerTextView.setTextColor(Color.BLACK);
             timerCard.setVisibility(View.VISIBLE);
+            timerTextView.setVisibility(View.VISIBLE);
+
         } else if (selectedTimerDisplayOption == R.id.timerDisplayWob) {
             timerTextView.setBackgroundColor(Color.BLACK);
             timerTextView.setTextColor(Color.WHITE);
             timerCard.setVisibility(View.VISIBLE);
+            timerTextView.setVisibility(View.VISIBLE);
+
         } else if (selectedTimerDisplayOption == R.id.timerDisplayWot) {
             timerTextView.setBackgroundColor(Color.TRANSPARENT);
             timerTextView.setTextColor(Color.WHITE);
             timerCard.setVisibility(View.VISIBLE);
+            timerTextView.setVisibility(View.VISIBLE);
+
             timerCard.setCardBackgroundColor(Color.TRANSPARENT);
         } else if (selectedTimerDisplayOption == R.id.timerDisplayOff){
-            //timerTextView.setTextColor(Color.RED);
+            timerCard.setVisibility(View.GONE);
             timerTextView.setVisibility(View.GONE);
         }
     }
