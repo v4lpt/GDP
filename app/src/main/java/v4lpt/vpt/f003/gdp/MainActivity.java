@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     private CountDownTimer countDownTimer;
     private boolean isBreak = false;
     private boolean isCancelButtonVisible = false;
-    private int selectedTimerDisplayOption = R.id.timerDisplayBow; // Default option
+    private int selectedTimerDisplayOption = R.id.timerDisplayOff; // Default option
 
     private Handler buttonHideHandler = new Handler();
     private Runnable buttonHideRunnable = new Runnable() {
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
         breakDuration = savedInstanceState.getLong(KEY_BREAK_DURATION);
         isBreak = savedInstanceState.getBoolean(KEY_IS_BREAK);
         isCancelButtonVisible = savedInstanceState.getBoolean(KEY_IS_CANCEL_BUTTON_VISIBLE);
-        selectedTimerDisplayOption = savedInstanceState.getInt(KEY_SELECTED_TIMER_DISPLAY_OPTION, R.id.timerDisplayBow);
+        selectedTimerDisplayOption = savedInstanceState.getInt(KEY_SELECTED_TIMER_DISPLAY_OPTION, R.id.timerDisplayOff);
 
         inflateLayout(currentLayout);
 
@@ -349,7 +349,8 @@ public class MainActivity extends AppCompatActivity {
             timerCard.setVisibility(View.VISIBLE);
             timerCard.setCardBackgroundColor(Color.TRANSPARENT);
         } else if (selectedTimerDisplayOption == R.id.timerDisplayOff){
-            timerCard.setVisibility(View.GONE);
+            //timerTextView.setTextColor(Color.RED);
+            timerTextView.setVisibility(View.GONE);
         }
     }
 
