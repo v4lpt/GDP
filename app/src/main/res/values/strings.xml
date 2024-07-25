@@ -8,7 +8,7 @@
     <string name="anleitung">Welcome to Gesture Drawing Practice, an App designed to display images you select for a specific amount of time.\n\n<b><font color="#efcac2">To select the images, tap the big red button.</font></b>\n\nFollowing this, you will have the option to customize your session. You can choose the display time, break time and appearance (or not appearance) of the timer.</string>
     <string name="anleitung2">Welcome to Gesture Drawing Practice, an open-source app designed to enhance your artistic skills. This app doesn\'t store any data, ensuring your privacy while you practice.  \n\nGesture Drawing Practice offers customizable settings to tailor your experience:\n\n• Adjust the display duration\n• Set break times between drawings\n• Choose whether to display a timer\n• Customize the timer\'s appearance\n\n<b><font color="#efcac2">To begin your session, simply tap the prominent red button to select your reference images.</font></b></string>
     <string name="powertools">Valentin\'s PowerTools #003</string>
-    <string name="app_name">VPT#003-GDP</string>
+    <string name="app_name">VPT#003-GDP - Gesture Drawing Practice</string>
     <string name="app_name_show">Gesture Drawing Practice</string>
 
     <string name="_00_00">00:00</string>

@@ -1,0 +1,1 @@
+minor bug fix relating to timerdisplayoption
