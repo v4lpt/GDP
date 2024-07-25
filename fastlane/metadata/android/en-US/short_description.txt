@@ -1,3 +1,1 @@
-Simple android app for displaying pictures for a set amount of time.
-
-
+Displays pictures for a set time with optional timer - for drawing practice.
