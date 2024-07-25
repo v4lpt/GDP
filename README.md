@@ -17,19 +17,15 @@ Or download the latest APK from the [Releases Section](https://github.com/v4lpt/
 ## Screenshots 
 [<img width=200 alt="Screenshot 1"
 src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true)
-[<img width=200 alt="Screenshot 2"
-src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true)
 [<img width=200 alt="Screenshot 3"
 src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true)
 [<img width=200 alt="Screenshot 4"
 src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true)
 [<img width=200 alt="Screenshot 5"
 src="fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true)
+[<img width=200 alt="Screenshot 2"
+src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true)
 
-
-<img src="https://raw.githubusercontent.com/v4lpt/GDP/master/Screenshots/Settings.png" alt="Settings" width="500" /> <img src="https://raw.githubusercontent.com/v4lpt/GDP/master/Screenshots/Settings_changed.png" alt="Settings: changed" width="500" />
-
-<img src="https://raw.githubusercontent.com/v4lpt/GDP/master/Screenshots/Welcome.png" alt="Welcome" width="500" /> <img src="https://raw.githubusercontent.com/v4lpt/GDP/master/Screenshots/Info.png" alt="Info (License) Screen" width="500" /><img src="https://raw.githubusercontent.com/v4lpt/GDP/master/Screenshots/Gesture_drawing.png" alt="Gesture Drawing" width="500" />
 
 ## License
 
