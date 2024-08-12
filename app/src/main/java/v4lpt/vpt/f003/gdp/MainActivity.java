@@ -379,16 +379,22 @@ public class MainActivity extends AppCompatActivity {
             public void onFinish() {
                 if (isBreak) {
                     isBreak = false;
-                    currentImageIndex++; // Increment the index here
+                    currentImageIndex++;
                     showNextImage();
                 } else {
-                    isBreak = true;
-                    if (breakDuration > 0) {
-                        showBreakScreen();
-                        startTimer(breakDuration);
+                    if (currentImageIndex < selectedImageUris.size() - 1) {
+                        // Not the last image, proceed with break if applicable
+                        isBreak = true;
+                        if (breakDuration > 0) {
+                            showBreakScreen();
+                            startTimer(breakDuration);
+                        } else {
+                            currentImageIndex++;
+                            showNextImage();
+                        }
                     } else {
-                        currentImageIndex++;
-                        showNextImage();
+                        // Last image, end the session
+                        endDrawingSession();
                     }
                 }
             }
