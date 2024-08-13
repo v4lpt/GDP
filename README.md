@@ -6,7 +6,11 @@ An open source android App for displaying your Gesture Drawings (or any other pi
      alt="Get it on F-Droid"
      height="80">](https://f-droid.org/packages/v4lpt.vpt.f003.gdp/)
 
-Or download the latest APK from the [Releases Section](https://github.com/v4lpt/GDP/releases/latest).
+
+[<img src="https://raw.githubusercontent.com/v4lpt/GDP/master/Badge/github.png"
+     alt="Get it on Github"
+     height="80">](https://github.com/v4lpt/GDP/releases/latest)
+     
 ## How does it work 
 - You click the big red button
 - You select your pictures
