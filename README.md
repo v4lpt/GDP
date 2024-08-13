@@ -2,14 +2,9 @@
 ## What is this 
 An open source android App for displaying your Gesture Drawings (or any other pictures if you want to) 
 
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
-     alt="Get it on F-Droid"
-     height="80">](https://f-droid.org/packages/v4lpt.vpt.f003.gdp/)
-
-
-[<img src="https://raw.githubusercontent.com/v4lpt/GDP/master/Badge/github.png"
-     alt="Get it on Github"
-     height="80">](https://github.com/v4lpt/GDP/releases/latest)
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/v4lpt.vpt.f003.gdp/)
+[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid" height="80">](https://apt.izzysoft.de/fdroid/index/apk/v4lpt.vpt.f003.gdp)
+[<img src="badge_github.png" alt="Get it on GitHub" height="80">](https://github.com/v4lpt/GDP/releases/latest)
      
 ## How does it work 
 - You click the big red button
