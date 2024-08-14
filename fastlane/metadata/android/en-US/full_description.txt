@@ -1,20 +1,18 @@
-<h1 id="gesture-drawing-practice">Gesture Drawing Practice</h1>
-<h2 id="vpt-003-gdp">VPT#003-GDP</h2>
-<p>This is Gesture Drawing Practice, an open source app for artists. It displays your selected pictures from the gallery, each for a set amount of time (like 1 minute). There are options to display a countdown timer and duration of pause (blank screen) between pictures</p>
+This is Gesture Drawing Practice, an open source app for artists. It displays your selected pictures from the gallery, each for a set amount of time (like 1 minute). There are options to display a countdown timer and duration of pause (blank screen) between pictures
 
-<h2 id="features">Features</h2>
-<ul>
-<li>🤖 select multiple pictures, order is preserved (!)</li>
-<li>⏲️ choose from 4 different usual time options for practice</li>
-<li>😴 choose from 4 different useful pause options </li>
-<li>🎨 options for visibility and appearance of the count down timer </li>
-</ul>
-<h2 id="usage">Usage</h2>
-<ul>
-<li>Tap the big red button</li>
-<li>Select your pictures from the gallery</li>
-<li>Change settings or leave it as it is</li>
-<li>Tap &quot;Start Session&quot </li>
-</ul>
-<p>Created with ❤️ by Valentin</p>
-<p>Tags: gesture drawing, practice, slide show, timer, countdown timer, artist, comic book, illustrator, drawing, draw, persons, line-of-action
+<b>Features<b>
+
+* 🤖 select multiple pictures, order is preserved (!)
+* ⏲️ choose from 4 different usual time options for practice
+* 😴 choose from 4 different useful pause options 
+* 🎨 options for visibility and appearance of the count down timer 
+
+<b>Usage<b>
+
+* Tap the big red button
+* Select your pictures from the gallery 
+* Change settings or leave it as it is
+* Tap "Start Session"
+
+Created with ❤️ by Valentin
+Tags: gesture drawing, practice, slide show, timer, countdown timer, artist, comic book, illustrator, drawing, draw, persons, line-of-action

@@ -10,8 +10,8 @@ android {
         applicationId = "v4lpt.vpt.f003.gdp"
         minSdk = 24
         targetSdk = 34
-        versionCode = 104
-        versionName = "1.0.4"
+        versionCode = 105
+        versionName = "1.0.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -24,6 +24,12 @@ android {
                 "proguard-rules.pro"
             )
         }
+    }
+    dependenciesInfo {
+        // Disables dependency metadata when building APKs.
+        includeInApk = false
+        // Disables dependency metadata when building Android App Bundles.
+        includeInBundle = false
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
