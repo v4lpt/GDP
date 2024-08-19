@@ -1,5 +1,5 @@
-# VPT-003 - Gesture Drawing Practice 
-## What is this 
+# Valentin's PowerTools #003 - Gesture Drawing Practice 
+## VPT#003-GDP
 An open source android App for displaying your Gesture Drawings (or any other pictures if you want to) 
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/v4lpt.vpt.f003.gdp/)
